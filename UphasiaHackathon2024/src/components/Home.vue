@@ -33,22 +33,24 @@ export default {
 
 <template>
   <div class="header">
-    <h1 style="margin: 0;font-size: 5em;">Uphasia Hack 2024</h1>
-    <h3 style="margin: 0;font-size: 2em;">ค่ายที่มาพร้อม Hackathon ชิงเงินรางวัลท้ายค่ายรวม 10,000 บาท</h3>
-    <h2 style="margin: 0;font-size: 2em; color:  #17AA7C;">ในหัวข้อ Cloud for Human wellbeing</h2>
+    <h1 style="margin: 0;font-size: 5vmax;">Uphasia Hack 2024</h1>
+    <h3 style="margin: 0;font-size: 2vmax;">ค่ายที่มาพร้อม Hackathon ชิงเงินรางวัลท้ายค่ายรวม 10,000 บาท</h3>
+    <h2 style="margin: 0;font-size: 2vmax; color:  #17AA7C;">ในหัวข้อ Cloud for Human wellbeing</h2>
   </div>
 
   <p id="typedText">
     {{ typedText }}
     <span class="input-cursor">|</span>
   </p>
+  <img id="uphasiainfo" src="../assets/uphasiahackinfo.png" alt="uphasiainfo">
 </template>
 <style scoped>
 .read-the-docs {
   color: #888;
 }
 #typedText {
-  font-size: 2rem;
+  font-size: 3vmax;
+  
   position: relative; /* Add this line for correct positioning of the cursor */
 }
 .input-cursor {
@@ -58,6 +60,13 @@ export default {
   background-color: white;
   /* margin-left: 8px; */
   position: absolute; /* Use absolute positioning */
+}
+#uphasiainfo{
+  min-width: 350px;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.177);
+  margin: 50px 0;
 }
 @keyframes blink {
   0% { opacity: 1; }

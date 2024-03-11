@@ -1,12 +1,15 @@
 <template>
         <div style="display: block;">
             <div>
-                <button id="register">ลงทะเบียน</button>
-
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc_DuP2e0Gaj5EJ6yY3dOUSgCNvH17Oiy-xr5azo9YtopaETg/viewform?usp=sf_link">
+                <button id="register" > ลงทะเบียน</button>
+            </a>
             </div>
             <div>
+                <a href="mailto:contact@uphasia.co">
 
-                <button id="contact">ติดต่อเรา</button>
+                    <button id="contact">ติดต่อเรา</button>
+                </a>
             </div>
 
         </div>
@@ -23,6 +26,7 @@
         color: white;
         font-size: 3vh;
         width: 25vmin;
+        min-width: 200px;
         padding: 10px;
         border-radius: 10px;
         border: 3px solid rgba(0, 0, 0, 0.332);
@@ -35,6 +39,7 @@
         color: #121212a0;
         font-size: 3vh;
         width: 25vmin;
+        min-width: 200px;
         padding: 10px;
         border-radius: 10px;
         border: 3px solid rgba(0, 0, 0, 0.332);

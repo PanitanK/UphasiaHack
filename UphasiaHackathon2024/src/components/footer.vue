@@ -7,15 +7,16 @@
   
   <style scoped>
   .footer {
-    position: fixed;
-    bottom: -1px;
+    position: relative;
+    bottom: 0px;
     color: white;
-    left: 0; /* Optionally set left to 0 to ensure full width */
-    width: 100%;
-    background-color: #121212;
-    text-align: center; /* Center the content horizontally */
-    padding: 10px; /* Add some padding for better visual appearance */
-    z-index: 100; /* Adjust the z-index if needed */
+    left: 0; 
+    margin-top: 100px;
+    background-color:  #17AA7C;
+    text-align: center;
+    padding: 10px; 
+    z-index: 100; 
+    font-size: 1vmax;
   }
   </style>
   
